@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26BF87F53024866200C7AB57 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BF87F43024866200C7AB57 /* NetworkExtension.framework */; };
 		26BF87FD3024866200C7AB57 /* TestSAPTests.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 26BF87F23024866200C7AB57 /* TestSAPTests.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		26BF874C3012856B00C7AB57 /* LearnSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26BF87F23024866200C7AB57 /* TestSAPTests.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TestSAPTests.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		26BF87F43024866200C7AB57 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -79,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26BF87F53024866200C7AB57 /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +88,6 @@
 			children = (
 				26BF874E3012856B00C7AB57 /* LearnSwiftUI */,
 				26BF87F63024866200C7AB57 /* TestSAPTests */,
-				26BF87F33024866200C7AB57 /* Frameworks */,
 				26BF874D3012856B00C7AB57 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,14 +99,6 @@
 				26BF87F23024866200C7AB57 /* TestSAPTests.appex */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		26BF87F33024866200C7AB57 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				26BF87F43024866200C7AB57 /* NetworkExtension.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

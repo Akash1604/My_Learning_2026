@@ -28,7 +28,7 @@ final class APIService:Services {
         }
         request.allHTTPHeaderFields = type.header
         
-        let (data, response) = try await U₹RLSession.shared.data(for: request)
+        let (data, response) = try await URLSession.shared.data(for: request)
         
         guard let rawResponse = response as? HTTPURLResponse,(200...299).contains(rawResponse.statusCode) else {
             throw DataError.invalidResponse
